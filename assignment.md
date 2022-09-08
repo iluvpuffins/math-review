@@ -28,38 +28,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13 + 5
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         0000              <!-- response -->
+         0013              <!-- response -->
+       + 0005              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         0018              <!-- response -->
    ```
  
    * 13 + 8
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         xx10              <!-- response -->
+         0013              <!-- response -->
+       + 0008              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         xx21              <!-- response -->
    ```
  
    * 1345 + 655
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         1110              <!-- response -->
+         1345              <!-- response -->
+       + 0655              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         2000              <!-- response -->
    ```
  
    * 5676 + 4334
    ```
-         xxx0              <!-- response -->
-         xxxx              <!-- response -->
-       + xxxx              <!-- response -->
+         1110              <!-- response -->
+         5676              <!-- response -->
+       + 4334              <!-- response -->
        ------
-         xxxx              <!-- response -->
+         0010              <!-- response -->
    ```
  
 #### Section 2: Addition of Fix Point Numbers
@@ -68,38 +68,38 @@ While completing this exercise, pay attention to the algorithm or process you us
 
    * 13.5 + 5.0
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0000.0000              <!-- response -->
+        0013.5000              <!-- response -->
+      + 0005.0000              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        0018.5000              <!-- response -->
    ```
  
    * 45.67 + 0.8
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0001.0000              <!-- response -->
+        0045.6700              <!-- response -->
+      + 0000.8000              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        0046.4700              <!-- response -->
    ```
  
    * 134.5 + 0.655
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0001.0000              <!-- response -->
+        0134.5000              <!-- response -->
+      + 0000.6550              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        0135.1550              <!-- response -->
    ```
  
    * 566.76 + 4334.0
    ```
-        xxxx.xxxx              <!-- response -->
-        xxxx.xxxx              <!-- response -->
-      + xxxx.xxxx              <!-- response -->
+        0110.0000              <!-- response -->
+        0566.7600              <!-- response -->
+      + 4334.0000              <!-- response -->
       -----------
-        xxxx.xxxx              <!-- response -->
+        4900.7600              <!-- response -->
    ```
 
 #### Section 3: Ten's Complement[^1]
